@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>com.apple.developer.associated-domains</key>
+	<array>
+		<string>applinks:dev.MyApp.com</string>
+		<string>applinks:web.MyApp.com</string>
+		<string>applinks:acc.MyApp.com</string>
+		<string>webcredentials:web.MyApp.com</string>
+	</array>
+	<key>com.apple.developer.networking.wifi-info</key>
+	<true/>
+	<key>inter-app-audio</key>
+	<true/>
+	<key>keychain-access-groups</key>
+	<array>
+		<string>$(AppIdentifierPrefix)com.MyApp.beta</string>
+	</array>
+	<key>com.apple.developer.carplay-audio</key>
+	<true/>
+</dict>
+</plist>
